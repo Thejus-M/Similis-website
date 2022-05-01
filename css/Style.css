@@ -13,7 +13,9 @@
     box-sizing: border-box;
     overflow: hidden;
 }
-
+.client{
+    border-radius: 50%;
+}
 .navbar {
     width: 100%;
     display: flex;
@@ -425,7 +427,9 @@ only screen and (max-width: 575px) {
     padding: 0 5px;
     background-color: white;
 }
-
+.with1card{
+    height: 18rem;
+}
 /* Remove extra left and right margins, due to padding in columns */
 .row {
     margin: 0 -5px;
@@ -443,13 +447,12 @@ only screen and (max-width: 575px) {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     /* this adds the "card" effect */
     padding: 10px;
-    min-height: 20rem;
     text-align: center;
 }
-.card img{
-    width: 5rem;
-}
+.d{
 
+    width: 7rem;
+}
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 770px) {
     .column {
@@ -470,7 +473,10 @@ only screen and (max-width: 575px) {
         padding: 25px
     }
 }
-
+.three{
+    width: 33%;
+    float: left;
+}
 .single-contact-info {
     padding: 25px 0
 }
